@@ -1,0 +1,36 @@
+name = OMEGA Play example
+description = Codinf example of omega theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/omega-play-example.normalize.css
+stylesheets[all][] = css/omega-play-example.hacks.css
+stylesheets[all][] = css/omega-play-example.styles.css
+stylesheets[all][] = css/omega-play-example.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/omega-play-example.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[column_one]     = Column Left one
+regions[column_two]     = Column Center one
+regions[column_three]   = Column Center two
+regions[column_four]    = Column right one
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer

@@ -1,0 +1,7 @@
+@include breakpoint($desk){
+  .l-columiser {
+    .l-region {
+      display: inline-block;
+    }
+  }
+}

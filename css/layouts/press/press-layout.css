@@ -1,0 +1,38 @@
+/*******************************************************************************
+ * press.scss
+ *
+ * Styling of the Press layout.
+ ******************************************************************************/
+.l-columiser .l-region {
+  display: inline-block;
+}
+
+.l-header,
+.l-main,
+.l-footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+  margin-bottom: 20px;
+}
+.l-header:after,
+.l-main:after,
+.l-footer:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.l-header:after,
+.l-main:after,
+.l-footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 70em) {
+  .l-columiser {
+    /*@include span-columns(4, 16);*/
+  }
+}
