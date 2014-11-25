@@ -1,0 +1,30 @@
+@media all and (min-width: 44em) {
+  #block-system-main-menu {
+    float: right;
+    ul{
+      li {
+        &.leaf{
+          padding: 0 5px !important;
+          :after{
+            content: "";
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background: url('../images/menu_shape.png') no-repeat right center;
+            position: relative;
+            top: 3px;
+          }
+          a {
+            display: block;
+            font-size: 1.2em !important;
+            color: #575757;
+            text-decoration: none;
+          }
+        }
+        a {
+
+        }
+      }
+    }
+  }
+}

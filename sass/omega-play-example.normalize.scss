@@ -6,3 +6,19 @@
 
 // Use 'border-box' for the box model.
 @import "toolkit/kickstart";
+
+a {
+  color: #BD5100;
+}
+/**
+ * We need to nest into h2 links to get it correctly
+ */
+article {
+  &.node--blog--teaser {
+    h2 {
+      a {
+        color: #BD5100;
+      }
+    }
+  }
+}
